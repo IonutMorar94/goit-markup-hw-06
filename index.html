@@ -23,45 +23,53 @@
 
             <form class="modal-form-style" name="costumer-info" autocomplete="on">
                 <h3 class="form-title-style">Leave your information and we'll call you back</h3>
-                <labe class="label-style">
-                    Name
-                    <svg class="modal-svg" width="12" height="12">
-                        <use href="./images/icons.svg.svg#modal-person-black"></use>
-                    </svg>
-                    <input class="modal-input-style" type="text" name="user name">
-                    </label>
+                <div class="label-container">
+                    <labe class="label-style">
+                        Name
+                        <input class="modal-input-style" type="text" name="user name">
+                        <svg class="modal-svg-poz" width="12" height="12">
+                            <use href="./images/icons.svg.svg#modal-person-black"></use>
+                        </svg>
+                </div>
+                <div class="label-container">
                     <label class="label-style">
                         Telephone
-                        <svg class="modal-svg" width="13" height="13">
+                        <input class="modal-input-style" type="tel" name="phone number">
+                        <svg class="modal-svg-poz" width="13" height="13">
                             <use href="./images/icons.svg.svg#modal-phone"></use>
                         </svg>
-                        <input class="modal-input-style" type="tel" name="phone number">
                     </label>
+                </div>
+                </label>
+                <div class="label-container">
                     <label class="label-style">
                         E-mail
-                        <svg class="modal-svg" width="15" height="12">
+                        <input class="modal-input-style" type="email" name="email">
+                        <svg class="modal-svg-poz" width="15" height="12">
                             <use href="./images/icons.svg.svg#modal-anvelop"></use>
                         </svg>
-                        <input class="modal-input-style" type="email" name="email">
+
                     </label>
-                    <label class="label-style">
-                        Comments
-                        <textarea class="textarea-modal-style" name="comments" cols="30" rows="5"
-                            placeholder="Enter the text"></textarea>
-                    </label>
-                    <div class="modal-check-box">
-                        <svg width="16" height="15">
-                            <use href="./images/icons.svg.svg#modal-empthy-check"></use>
+                </div>
+                <label class="label-style">
+                    Comments
+                    <textarea class="textarea-modal-style" name="comments" cols="30" rows="5"
+                        placeholder="Enter the text"></textarea>
+                </label>
+                <label class="modal-check-box terms">
+                    <input class="checkbox-hide" type="checkbox">
+                    <span class="replace-checkbox">
+                        <svg class="modal-svg" width="15" height="12">
+                            <use href="./images/icons.svg.svg#checkmark1"></use>
                         </svg>
-                        <p class="checkbox-text">
-                            I agree
-                            with the letter and
-                            accept the <span class="terms-blue-style">Terms and Conditions</spa>
-                        </p>
-                    </div>
-                    <div class="button-position">
-                        <button class="submit-button-style" type="submit">Send</button>
-                    </div>
+                    </span>
+                    I agree
+                    with the letter and
+                    accept the <a class="terms-blue-style" href="#">Terms and Conditions</a>
+                </label>
+                <div class="modal-button-position">
+                    <button class="submit-button-style" type="submit">Send</button>
+                </div>
             </form>
 
 
