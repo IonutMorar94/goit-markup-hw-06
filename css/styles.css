@@ -778,7 +778,7 @@ footer {
     line-height: 40px;
     padding-left: 27px;
     outline: none;
-
+    cursor: pointer;
 }
 
 .label-container input:focus {
@@ -805,6 +805,7 @@ footer {
     padding-top: 12px;
     padding-left: 16px;
     outline: none;
+    cursor: pointer;
 }
 
 .textarea-modal-style:focus {
