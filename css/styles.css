@@ -309,7 +309,7 @@ footer {
     align-items: center;
 }
 
-.efective-title {
+.efective-section__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -343,17 +343,17 @@ footer {
     flex-direction: column;
 }
 
-.abilities {
+.abilities-grid {
     display: flex;
     gap: 30px;
     justify-content: space-around;
 }
 
-.abilities li {
+.abilities-grid li {
     width: 270px;
 }
 
-.abilities li h3 {
+.abilities-grid li h3 {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -384,13 +384,13 @@ footer {
     flex-direction: column;
 }
 
-.what-we-do-photo {
+.what-we-do-section-grid {
     display: flex;
     gap: 30px;
     justify-content: space-around;
 }
 
-.what-we-do-title {
+.what-we-do-section__title {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -407,26 +407,26 @@ footer {
     flex-direction: column;
 }
 
-.our-team-title {
+.our-team-section__title {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.our-team-photo {
+.our-team-photo-grid {
     display: flex;
     gap: 30px;
     justify-content: space-around;
 }
 
-.our-team-photo li h3 {
+.our-team-photo-grid li h3 {
     display: flex;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
-.our-team-photo li p {
+.our-team-photo-grid li p {
     display: flex;
     justify-content: center;
     color: #757575;
@@ -456,7 +456,7 @@ footer {
 
 }
 
-.team-vectorials {
+.team-vectorials-grid {
     display: flex;
     align-items: center;
     width: 206px;
@@ -464,7 +464,7 @@ footer {
     margin-top: 16px;
 }
 
-.team-vectorials li a {
+.team-vectorials-grid li a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -546,7 +546,7 @@ footer {
     fill: #AFB1B8;
 }
 
-.our-team-photo-list {
+.our-team-photo-grid__item {
     width: 270px;
     left: 515px;
     top: 1785px;
@@ -588,7 +588,7 @@ footer {
 }
 
 /* tema 5*/
-.what-we-do-description {
+.what-we-do-section-grid__description {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -606,7 +606,7 @@ footer {
     bottom: 4px;
 }
 
-.what-we-do-photo li {
+.what-we-do-section-grid li {
     position: relative;
 }
 
